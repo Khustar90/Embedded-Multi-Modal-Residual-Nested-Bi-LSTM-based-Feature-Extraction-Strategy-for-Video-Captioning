@@ -54,7 +54,7 @@ def extract_frames_from_video(video_path, output_folder, max_frames=100):
         
         print(f"Saved: {frame_filename}")
         
-        frame_num += 1
+        frame_num+=1
     
     # Release the video capture object
     video_capture.release()
